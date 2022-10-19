@@ -48,7 +48,7 @@ def reset():
 
 def my_portfolio():
 
-	api_request= requests.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=300&convert=USD&CMC_PRO_API_KEY=72655f0f-d539-481f-8a1d-1f7e84537ae0')
+	api_request= requests.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=300&convert=USD&CMC_PRO_API_KEY=xxxx')
 
 	api = json.loads(api_request.content)
 
